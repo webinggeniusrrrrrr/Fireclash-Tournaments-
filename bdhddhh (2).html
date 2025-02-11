@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Tournaments | BattleZone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #ff4500;
+    color: royalblue;
+    position: fixed;
+    width: 100%;
+    font-size: 1.2rem;
+    top: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0 45px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: underline ;
+    font-size: 1.1rem;
+}
+
+.hero {
+    padding: 50px 20px;
+    background: url('/cobra_hd_free_fire.jpg') no-repeat center center/cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tournaments {
+    padding: 30px;
+}
+
+.tournament-card {
+    background: #222;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 15px;
+    background: #ff4500;
+}
+.testimonials {
+    background: #2222;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.testimonial-card {
+    padding: 5px;
+    border-left: 5px solid orange;
+}
+.contact {
+    background: #222;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.contact-info, .social-media {
+    flex: 1;
+    min-width: 300px;
+}
+
+.social-media a {
+    color: #ff4500;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+.leaderboard {
+    background: royalblue;
+    color: white;
+    text-align: center;
+    padding: px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.leaderboard-table {
+    width: 100%;
+    
+   
+    border-collapse: 10px auto;
+    background: #111;
+    color: white;
+    overflow: hidden;
+   
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    padding: 15px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.leaderboard-table th {
+    background: #ff4500;
+    color: white;
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background: #333;
+}
+</style>
+<body>
+    <header>
+        <h1>BattleZone</h1>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                
+                <li><a href="#tournaments">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p><br><br><br><br><br><br></p>
+
+    <section class="hero" id="hero">
+        <h2> <br><br>Join the Ultimate Free Fire Battles!</h2>
+        <p>Compete with top players and win amazing rewards.</p>
+        <a href="#tournaments" class="btn">Register Now</a>
+    </section>
+
+    <section class="tournaments" id="tournaments">
+        <h2>Upcoming Tournaments</h2>
+        <div class="tournament-card">
+            <h3>Battle Royale Championship</h3>
+           <b> <p>Prize Pool: ₦35,000</p></b>
+            <p>Reg fee: ₦1,000</p>
+            <p>Date: 15th Feb 2025</p>
+            <a href="https://paystack.com/pay/8nuez4fpi9" class="btn">Pay Now</a>
+        </div>
+
+        <div class="tournament-card">
+            <h3>Squad Showdown</h3>
+            <b><p>Prize Pool: ₦25,000</p></b>
+            <p>Reg fee: ₦1,000</p>
+            <p>Date: 15th Feb 2025</p>
+            <a href="https://paystack.com/pay/8nuez4fpi9" class="btn">Pay Now</a>
+        </div>
+        <a href="register.html" class="btn">Verify Here after Payment</a>
+    </section>
+    <section class="leaderboard">
+    <h2>Live Tournament Leaderboard</h2>
+
+    <table class="leaderboard-table">
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Kills</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us!</p>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Email & Phone</h3>
+            <p>Email: 
+             <a href="mailto:fireclasharena@gmail.com">
+   fireclasharena
+ </a>
+            </p>
+             
+            <p>Phone: <a href="https://t.me/fireclash_arena">Contact</a></p>
+            
+        </div>
+
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <a href="https://youtube.com/@fireclasharena?si=W37ox9rewUHETIoN" target="_blank">YouTube</a> | 
+            <a href="https://t.me/fireclashtournaments" target="_blank">Telegram</a> 
+           
+        </div>
+    </div>
+</section>
+
+    <section class="testimonials">
+    <h2>Testimonies</h2>
+    <div class="testimonial-card">
+        <p>The tournaments are fair, and the winnings are paid out fast. I cashed out ₦12,000 last week after winning the Solo Domination event!</p>
+        <h4>MIMI ff</h4>
+    </div>
+     <div class="testimonial-card">
+        <p>I have played in many Free Fire tournaments, but this one is the most legit. I won ₦40,000, and the organizers made the payout smoothly</p>
+        <h4>hackerX</h4>
+    </div>
+     <div class="testimonial-card">
+   <p>Got my first-ever tournament win here and received ₦5,000 instantly. Now I’m grinding to win bigger prizes!</p>
+   <h4>GamerPro</h4>
+ </div>
+  <div class="testimonial-card">
+   <p>"This tournament was amazing! The prize was real, and the competition was fun!"</p>
+   <h4> Darkshadow</h4>
+ </div>
+</section>
+
+    <footer>
+        <p>&copy; 2025 BattleZone. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
